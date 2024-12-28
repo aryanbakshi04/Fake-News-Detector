@@ -1,4 +1,5 @@
 Fake News Detection System
+
 Overview
 The Fake News Detection System leverages advanced machine learning techniques to classify news articles as either True or Fake. The project implements various algorithms to ensure accuracy and reliability, using natural language processing (NLP) to analyze textual data.
 
