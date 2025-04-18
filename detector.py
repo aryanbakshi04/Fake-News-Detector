@@ -1,5 +1,10 @@
 # app.py
 import streamlit as st
+st.set_page_config(
+    page_title="Fake News Detector",
+    page_icon="📰",
+    layout="centered",
+)
 import pandas as pd
 import numpy as np
 import re, string
@@ -52,7 +57,7 @@ dt = DecisionTreeClassifier(random_state=42)
 dt.fit(Xv_train, y_train)
 
 # —— Streamlit UI ——
-st.set_page_config(page_title="Fake News Detector", layout="centered")
+# st.set_page_config(page_title="Fake News Detector", layout="centered")
 st.title("📰 Fake vs. True News Classifier")
 
 st.markdown(
